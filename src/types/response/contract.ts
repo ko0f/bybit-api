@@ -25,7 +25,7 @@ export interface ContractHistoricOrder {
   updatedTime: string;
   cancelType: string;
   rejectReason: string;
-  stopOrderType: string;
+  stopOrderType?: string;
   triggerDirection: number;
   triggerBy: string;
   triggerPrice: string;
